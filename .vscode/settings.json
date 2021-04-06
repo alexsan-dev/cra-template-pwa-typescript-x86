@@ -1,0 +1,14 @@
+{
+    "cSpell.ignoreWords": [
+        "appspot",
+        "datepicker",
+        "firebaseapp",
+        "kqk",
+        "reservaciones",
+        "semail",
+        "spassword",
+        "strs",
+        "whts"
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib"
+}
