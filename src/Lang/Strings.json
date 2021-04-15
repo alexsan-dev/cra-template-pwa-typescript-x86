@@ -1,3 +1,19 @@
 {
-	"es":{}
+	"es": {
+		"home": {
+			"title": "Torres de Hanoi",
+			"description": "Creado por Alex Santos"
+		},
+		"initPrompt": {
+			"title": "Bienvenido jugador",
+			"confirmText": "JUGAR",
+			"body": "Gracias por jugar, para iniciar indica tu nombre y el número de aros. Por ultimo solo presiona JUGAR."
+		},
+		"promptFields": {
+			"name": "Nombre de jugador",
+			"nameHelp": "Sin espacios",
+			"disk": "Numero de discos",
+			"diskHelp": "Máximo 7 discos"
+		}
+	}
 }

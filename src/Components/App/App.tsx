@@ -10,12 +10,15 @@ import MainProvider from 'Providers/Main'
 
 // RUTAS
 import Router from 'Router/Router'
+import SceneProvider from 'Providers/Scene'
 
 const App: React.FC = () => {
 	return (
 		<BrowserRouter>
 			<MainProvider>
-				<Router />
+				<SceneProvider>
+					<Router />
+				</SceneProvider>
 			</MainProvider>
 		</BrowserRouter>
 	)

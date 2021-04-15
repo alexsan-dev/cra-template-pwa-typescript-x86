@@ -2,10 +2,10 @@
 import React from 'react'
 
 // VISTAS
-import Login from 'Views/Login/Login'
+import IndexView from 'Views/Index/Index'
 
 const Index: React.FC = () => {
-	return <Login />
+	return <IndexView />
 }
 
 export default Index

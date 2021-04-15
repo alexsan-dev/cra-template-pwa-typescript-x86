@@ -1,0 +1,29 @@
+.title {
+	font-family: 'Croissant One', cursive;
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	color: #fff;
+	font-size: 4em;
+	display: block;
+	pointer-events: none;
+}
+
+.description {
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	color: #fff;
+	font-size: 1.35em;
+	display: block;
+	opacity: 0.7;
+	pointer-events: none;
+
+	a {
+		color: #03a9f4;
+	}
+}
